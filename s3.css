@@ -1,0 +1,20 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to right, #830000, #ff8e8e);
+    color: white; /* Set text color to white for better visibility */
+  }
+  
+  #tq {
+    font-size: 80px; /* Increased font size */
+  }
+  
+  #tq1 {
+    font-size: 20px; /* Increased font size */
+  }
+  
+  .contact-details {
+    font-size: 20px; /* Increased font size */
+  }
+  

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddagangashree Voluntary Blood Center</title>
+  <link rel="stylesheet" href="s2.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: linear-gradient(to right, #830000, #ff8e8e);
+      background-size: cover;
+      height: 100vh;
+    }
+
+    #head {
+      cursor: pointer;
+      text-decoration: underline;
+      color: black;
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .nav-link {
+      margin-top: 20px;
+      font-size: 24px;
+      cursor: pointer;
+      color: black;
+      text-decoration: underline;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .image-gallery img {
+      width: calc(25% - 20px);
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.05);
+      transition: transform 0.2s;
+    }
+
+    .center ul {
+      text-align: left;
+      padding-left: 0; /* Remove default padding */
+      margin-left: 0; /* Remove default margin */
+    }
+
+    .center ul li {
+      list-style-type: disc; /* Use disc type bullets */
+      margin-left: 20px; /* Adjust margin to align bullets */
+    }
+  </style>
+</head>
+<body>
+  <h1 id="head" onclick="goToHomePage()">Siddagangashree Voluntary Blood Center</h1>
+
+  <div class="image-gallery">
+    <img src="WhatsApp Image 2024-06-08 at 12.13.15 AM.jpeg" alt="Description of image 1">
+    <img src="WhatsApp Image 2024-06-08 at 12.13.15 AM (1).jpeg" alt="Description of image 2">
+    <img src="WhatsApp Image 2024-06-08 at 12.13.15 AM (3).jpeg" alt="Description of image 3">
+    <img src="WhatsApp Image 2024-06-08 at 12.13.14 AM (1).jpeg" alt="Description of image 4">
+   
+  </div>
+
+  <p class="center">Siddagangashree Voluntary Blood Center is a dedicated group that acts as a bridge between donors and hospitals. Our initiative, the Social Connect Group, was started a few years ago with the aim of ensuring a steady and timely supply of blood to those in need.</p>
+
+  <h2 class="center">Our Process</h2>
+  <p class="center">We collect blood from self-interested donors whenever possible and store it for emergencies. Hospitals can access this blood when required, and individuals can also obtain blood from our organization when necessary.</p>
+
+  <h2 class="center">Precautionary Measures</h2>
+  <ul class="center">
+    -All equipment is sterilized to ensure a safe donation process.<br>
+    -Donors are screened for eligibility and health conditions.<br>
+    -Trained professionals handle the blood collection process.<br>
+    -After donation, donors are provided with refreshments and rest.<br>
+  </ul>
+
+  
+  <div class="center">
+    <p class="nav-link" onclick="goToHomePage()">Back</p>
+    <p class="nav-link" onclick="goToNextPage()">Next</p>
+  </div>
+
+  <script>
+    function goToHomePage() {
+      window.location.href = "website.html";
+    }
+
+    function goToNextPage() {
+      window.location.href = "web5.html";
+    }
+  </script>
+</body>
+</html>

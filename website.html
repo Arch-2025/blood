@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <div class="logo">
+        <h1> Siddagangashree Voluntary Blood Center</h1>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#" onclick="return false;">HOME</a></li>
+          <li><a href="web3.html">ABOUT</a></li>
+          <li><a href="web4.html">CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+       <div class="info">
+        <div class="overlay"></div>
+        <img src="aval.png" class="mobile">
+        <div id="circle">
+          <div class="feature one">
+
+            <div>
+              <h2>ESSENTIAL INSIGHTS!!</h2>
+            </div>
+          </div>
+          <div class="feature two">
+            <div><p><h2>MAJOR GROUPS</h2>
+              <h5>
+                O,A,AB,B
+              </h5>
+              </p>
+            </div>
+
+          </div>
+         <div class="feature three">
+            <div>
+              <h2>DONOR CONDITIONS</h2>
+              <p><ul>
+                <li>Age between 18 and 60 years</li>
+                <li>Haemoglobin - not less than 12.5 g/Dl</li>
+                <li>Pulse - between 50 and 100/minute with no irregularities</li>
+                <li>Blood Pressure -Systolic 100-180 mm Hg </li>
+              </ul></p>
+            </div>
+            </div>
+          <div class="feature four">
+            <div>
+              <h2>USES</h2>
+              <p><ul><h5>
+                <li>help your blood flow and result in fewer arterial blockages</li>
+                <li>reduce their risk of having a heart attack or stroke</li>
+                <li>Donating can keep your iron level balanced</li>
+                </h5>
+              </ul></p>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="controls">
+         <img src="up.png" id="upbtn">
+         <h3>Features</h3>
+         <img src="down.png" id="downbtn">
+       </div>
+  </div>
+
+
+<script>
+  var circle=document.getElementById("circle");
+  var upbtn=document.getElementById("upbtn");
+  var downbtn=document.getElementById("downbtn");
+  var rotateval=circle.style.transform;
+  var rotateSum;
+
+  upbtn.onclick=function(){
+    rotateSum=rotateval+"rotate(-90deg)";
+    circle.style.transform=rotateSum;
+    rotateval=rotateSum;
+  }
+  downbtn.onclick=function(){
+    rotateSum=rotateval+"rotate(+90deg)";
+    circle.style.transform=rotateSum;
+    rotateval=rotateSum;
+  }
+</script>
+
+</body>
+</html>
